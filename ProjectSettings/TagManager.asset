@@ -11,9 +11,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Sample
+  - BackgroundTile
+  - Wall
   - 
   - 
   - 
@@ -40,4 +40,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 2908833945
+    locked: 0
+  - name: Windows
+    uniqueID: 3613359169
+    locked: 0
+  - name: Furniture
+    uniqueID: 4229144533
+    locked: 0
+  - name: Table Objects
+    uniqueID: 2918521921
+    locked: 0
+  - name: Wall
+    uniqueID: 3977514133
     locked: 0
