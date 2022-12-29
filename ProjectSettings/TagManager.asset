@@ -41,6 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Market Background
+    uniqueID: 3257634559
+    locked: 0
   - name: Background
     uniqueID: 2908833945
     locked: 0
