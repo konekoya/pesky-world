@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - NPCGraphic
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Sample
+  - BackgroundTile
+  - Wall
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Market Background
+    uniqueID: 3257634559
+    locked: 0
+  - name: Background
+    uniqueID: 2908833945
+    locked: 0
+  - name: Windows
+    uniqueID: 3613359169
+    locked: 0
+  - name: Furniture Lower
+    uniqueID: 1962606573
+    locked: 0
+  - name: Furniture
+    uniqueID: 4229144533
+    locked: 0
+  - name: Table Objects
+    uniqueID: 2918521921
+    locked: 0
+  - name: Wall
+    uniqueID: 3977514133
+    locked: 0
+  - name: NPC
+    uniqueID: 196074067
+    locked: 0
