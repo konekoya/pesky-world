@@ -15,6 +15,7 @@ public class NPC : MonoBehaviour
     [SerializeField] float moveSpeed = 14f;
     [SerializeField] Waypoints enterWaypoints;
     [SerializeField] Waypoints leaveWaypoints;
+    [SerializeField] private GameObject dialogPanel; 
 
     bool shouldLeave = true;
     float pauseTime = 3.0f;
@@ -37,6 +38,7 @@ public class NPC : MonoBehaviour
     IEnumerator DoPause()
     {
         animator.SetBool("IsSittingLeft", true);
+        dialogPanel.SetActive(true);
         yield return new WaitForSeconds(pauseTime);
         animator.SetBool("IsSittingLeft", false);
 
@@ -46,6 +48,7 @@ public class NPC : MonoBehaviour
             enterWaypoints = leaveWaypoints;
             shouldPause = false;
         }
+        dialogPanel.SetActive(false);
     }
 
     void Move(Waypoints waypoints)
